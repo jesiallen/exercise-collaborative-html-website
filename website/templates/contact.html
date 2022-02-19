@@ -1,2 +1,46 @@
 <!-- your html code here -->
-<p>Hello, I'm contact.html</p>
+<p>
+    <div class="container">
+        <div class="row">
+            <h1>Contact</h1>
+        </div>
+        <div class="row">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vestibulum neque vitae tincidunt eleifend.
+                In eget varius turpis. In convallis justo at augue rutrum, vel lacinia metus laoreet. Nullam imperdiet
+                aliquet ex nec maximus. Aenean ac erat justo. Phasellus vitae condimentum dui.
+            </p>
+        </div>
+        <!----added styling for form container class="bg-white border border-dark rounded p-3 style="style="width: 700px; -->
+        <div class="container">
+            <div class="row d-flex justify-content-md-center">
+                <form class="bg-white border border-light rounded pt-3 pb-4" style="width: 800px;">
+                    <div class="row mb-3">
+                        <div class="col-4 pt-2 d-flex justify-content-end">
+                            <label for="exampleInputEmail1" class="form-label">Your E-mail</label>
+                        </div>
+                        <div class="col-8">
+                            <!--input type="email" class="form-control w-100" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your email"-->
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your email">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-4 pt-2 d-flex justify-content-end">
+                            <label for="exampleInputPassword1" class="form-label">Your message</label>
+                        </div>
+                        <div class="col-8">
+                            <!----input type="password" class="form-control w-100 " id="exampleInputPassword1" style="height: 125px;"--->
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Please enter your message here..."></textarea>
+                        </div>            
+                    </div>
+                    <div class="row button pt-2">
+                        <div class="col d-flex justify-content-end">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>  
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</p>
